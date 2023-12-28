@@ -6,9 +6,9 @@ export default function cat_Book() {
   return (
     <div className=' w-full h-full'>
       <div className="w-[80%] items-center justify-center mx-auto my-8 text-start bg-orange-300">
-        <div className="mb-4">
+        <div className="mb-4 ">
             <Link href="">
-                <h4>GO Back</h4>
+                <h4 className='pl-4'>GO Back</h4>
             </Link>            
         </div>
 
@@ -20,19 +20,19 @@ export default function cat_Book() {
             <div className="">
                 <h2 className='text-[25px] font-normal'>Hello World</h2>
 
-                <div className="flex items-center">
+                <div className="flex items-center mt-4">
                     <p className='text-[18px] font-semibold mr-3'>Subject places: </p>
                     <p>No Subject</p>
                 </div>
 
-                <div className="flex items-center">
+                <div className="flex items-center mt-4">
                     <p className='text-[18px] font-semibold mr-3'>Subject Time: </p>
                     <p>No Subject</p>
                 </div>
 
-                <div className="flex items-center justify-center">
+                <div className="flex mt-5">
                     <p className='text-[18px] font-semibold mr-3'>Subjects: </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum dolorem quibusdam! Libero, amet! Ratione, voluptates est. Totam optio, temporibus nihil doloribus itaque quod odit illo molestias quam doloremque fugiat.</p>
+                    <p className='item-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum dolorem quibusdam! Libero, amet! Ratione, voluptates est. Totam optio, temporibus nihil doloribus itaque quod odit illo molestias quam doloremque fugiat.</p>
                 </div>
 
 
